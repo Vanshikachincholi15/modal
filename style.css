@@ -94,6 +94,6 @@ p {
   backdrop-filter: blur(3px);
 }
 
-.overlay.hidden {
+.hidden {
   display: none;
 }
