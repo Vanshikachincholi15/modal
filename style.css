@@ -3,3 +3,81 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #b3e6f4;
+}
+
+.modal {
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 10px;
+  max-width: 420px;
+  margin-bottom: 3rem;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h3 {
+  font-size: x-large;
+  margin: 0.5rem 0;
+}
+
+img {
+  border-radius: 100%;
+}
+
+.btn-close {
+  padding: 1rem 1.2rem;
+  border-style: none;
+  border-radius: 100%;
+  background-color: #eeeeee;
+}
+
+p {
+  margin: 0.5rem 0;
+  color: rgb(0, 0, 0, 0.6);
+}
+
+.btn.btn-open {
+  background-color: #000000;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  border-style: none;
+  color: #eae3da;
+  font-size: large;
+  font-weight: 700;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.flex-col input {
+  border-style: none;
+  padding: 0 0.5rem;
+  margin: 0.5rem 0;
+}
+
+.flex-col button {
+  background-color: #000000;
+  color: #eeeeee;
+  padding: 0.5rem 0;
+  border-radius: 10px;
+  border-style: none;
+
+  font-size: large;
+  font-weight: 700;
+}
